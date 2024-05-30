@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- toastify css -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- css link -->
+     <link rel="stylesheet" href="style/style.css">
+    <title>lecture 2 practice</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg  bg-primary ">
+            <div class="container">
+              <a class="navbar-brand text-white fw-bold" href="#">Assignment</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fw-bolder"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Chapter 1-7</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+      <div class="container">
+       <h3 class="text-center mt-4 fw-bold">Practice of Javascript</h3>
+       <h3 class="text-center mt-4">Chapter 8 - 14</h3>
+       <hr />
+       <br />
+       <div class="border rounded-3 border-dark p-4">
+        <div class="row">
+          <div class="col-12">
+            <button class="btn btn-danger mt-2" onclick="concatenate()">Concatenete some strings</button>
+            <button class="btn btn-danger mt-2" onclick="askname()">Ask name from users</button>
+            <button class="btn btn-danger mt-2" onclick="comparison()">Comparison operator</button>
+            <button class="btn btn-danger mt-2" onclick="ifelse()">if else if</button>
+            <button class="btn btn-danger mt-2" onclick="conditions()">Tested set of conditions</button>
+            <button class="btn btn-danger mt-2" onclick="nestedif()">If statement nested</button>
+            <button class="btn btn-danger mt-2 " onclick="login()">Login</button>
+            <button class="btn btn-danger mt-2" onclick="dividevariables()">Check</button>
+            
+          </div>
+        </div>
+      
+      
+
+      </div>
+       <h3 class="text-center mt-4">Original Statement</h3>
+       <br>
+
+       <div class="row">
+        <div class="col-12">
+          <div class="border rounded-3 border-dark py-4 text-center"  id="statement"></div>
+
+        </div>
+       </div>
+       <div class="text-center">
+
+       <button class="btn btn-secondary mt-4 p-2  " onclick="clearstatement()">Clear Statement</button>
+      </div>
+
+      <!-- output/result -->
+
+      <h3 class="text-center mt-4">Output/Result</h3>
+      <br>
+
+      <div class="row">
+       <div class="col-12">
+         <div class="border rounded-3 border-dark py-4 text-center" id="output"></div>
+
+       </div>
+      </div>
+      <div class="text-center">
+
+      <button class="btn btn-secondary mt-4 p-2" onclick="clearbutton()">Clear Output</button>
+      <br>
+      <br> 
+     </div>
+
+      </div>
+
+
+    </main>
+
+    <footer>
+            <div class="text-center">
+              <P class="bg-primary mb-0 p-2 text-white w-100">&copy;2024.<b>All Rights Reserved</b></P>
+            </div>
+        
+
+    </footer>
+
+     <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!-- toastify js  -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+ 
+     <!-- js link  -->
+     <script src="script.js"></script>
+    
+</body>
+</html>
